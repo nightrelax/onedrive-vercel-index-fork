@@ -69,7 +69,7 @@ const FolderListLayout = ({
           {t('Actions')}
         </div>
         <div className="hidden text-xs font-bold uppercase tracking-widest text-gray-600 dark:text-gray-300 md:block">
-          <div className="hidden p-1.5 text-gray-700 dark:text-gray-400 md:flex">
+          <div className="hidden p-1.5 text-gray-700 dark:text-gray-400 md:flex" style="display:none">
             <Checkbox
               checked={totalSelected}
               onChange={toggleTotalSelected}
